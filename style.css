@@ -5,6 +5,11 @@ body {
     font-size: 18px;
 }
 
+p {
+    margin: 0;
+    padding: 0
+}
+
 header {
     height: 70px;
     background-color: red
@@ -21,7 +26,7 @@ header {
     justify-content: space-between;
 }
 
-.foto {
+.photo {
     height: 250px;
     width: 250px;
     border-radius: 50%;
@@ -42,6 +47,25 @@ header {
     height: 150px;
     width: 150px;
     margin-top: 70px;
+}
+
+.aboutMyself {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+}
+
+.aboutMyselfText {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconDance {
+    width: 120px;
+    height: 190px;
 }
 
 .languages {
