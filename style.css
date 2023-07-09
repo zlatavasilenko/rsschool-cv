@@ -11,18 +11,73 @@ header {
 }
 
 .wrapper {
-    height: 1250px;
-    background-color: bisque;
+    height: 3000px;
+    padding: 0 300px;
+
 }
+
+.baseInfo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.foto {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.iconSit {
+    height: 150px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+.languages {
+    background-color: darkgreen;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.languagesBox {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+
+}
+
+.languagesImg {
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+
 
 footer {
     height: 170px;
     margin: 0;
-    padding: 0;
+    padding: 0 300px;
     display: flex;
     justify-content: space-around;
 }
-a{text-decoration: none;
+
+a {
+    text-decoration: none;
     font-variant: small-caps;
     color: black;
 
