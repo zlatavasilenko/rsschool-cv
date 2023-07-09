@@ -10,26 +10,26 @@ p {
     padding: 0
 }
 
+
 header {
-    height: 70px;
-    background-color: red
+    border-bottom: 1px solid black;
 }
 
 .wrapper {
-    height: 3000px;
-    padding: 0 300px;
-
+       padding: 0 300px 0;
 }
 
 .baseInfo {
     display: flex;
     justify-content: space-between;
+    padding-bottom: 10px;
 }
 
 .photo {
     height: 250px;
     width: 250px;
     border-radius: 50%;
+    border: 2px solid black;
 }
 
 .contact {
@@ -68,22 +68,41 @@ header {
     height: 190px;
 }
 
-.languages {
-    background-color: darkgreen;
+.skills {
+    padding-top: 30px;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
 }
 
-.languagesBox {
+.skillsImg {
+    height: 180px;
+    width: 120px;
+}
+.kodding {
+    width: 300px;
+}
+.education{display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+border-bottom: 1px solid black;}
 
+.educationBook{width: 200px;}
+.educationText{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items:flex-start;}
+
+.languages {
+       display: flex;
+    justify-content: space-between;
     align-items: center;
-
-
+    border-bottom: 1px solid black;
 }
+.look{width: 100px;
+height: 100px}
 
 .languagesImg {
     width: 100px;
@@ -95,9 +114,8 @@ header {
 footer {
     height: 170px;
     margin: 0;
-    padding: 0 300px;
-    display: flex;
-    justify-content: space-around;
+      display: flex;
+    justify-content: space-between;
 }
 
 a {
@@ -141,4 +159,20 @@ a {
     justify-content: space-around;
     align-items: center;
     padding: 30px;
+}
+.highlight{
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
 }
