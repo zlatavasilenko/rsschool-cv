@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+    font-size: 18px;
+}
+
+p {
+    margin: 0;
+    padding: 0
+}
+
+
+header {
+    border-bottom: 1px solid black;
+}
+
+.wrapper {
+       padding: 0 300px 0;
+}
+
+.baseInfo {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+
+.photo {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 2px solid black;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contactInfo {
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.iconSit {
+    height: 150px;
+    width: 150px;
+    margin-top: 70px;
+}
+
+.aboutMyself {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 1px solid black;
+}
+
+.aboutMyselfText {
+    height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iconDance {
+    width: 120px;
+    height: 190px;
+}
+
+.skills {
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+
+}
+
+.skillsImg {
+    height: 180px;
+    width: 120px;
+}
+.kodding {
+    width: 300px;
+}
+.education{display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+border-bottom: 1px solid black;}
+
+.educationBook{width: 200px;}
+.educationText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items:flex-start;}
+
+.languages {
+       display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+.look{width: 100px;
+height: 100px}
+
+.languagesImg {
+    width: 100px;
+    height: 100px;
+    background: none;
+}
+
+
+footer {
+    height: 170px;
+    margin: 0;
+      display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-variant: small-caps;
+    color: black;
+
+}
+
+.iconSchool {
+    width: 150px;
+}
+
+.imgEnd {
+    width: 150px;
+}
+
+.iconGit {
+    width: 150px
+}
+
+.footerSchool {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footerCopyright {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px;
+}
+
+.footerGithub {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px;
+}
+.highlight{
+    padding: 16px;
+    overflow: auto;
+    font-size: 85%;
+    line-height: 1.45;
+    background-color: #f6f8fa;
+    border-radius: 3px;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+}
+ul {
+    margin-left: 0; /* Отступ слева в браузере IE и Opera */
+    padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
